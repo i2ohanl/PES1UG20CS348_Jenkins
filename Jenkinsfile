@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'cat PES1UG20CS348.cpp'
+                sh 'cat error.cpp'
                 echo 'Test successful'
             }
         }
